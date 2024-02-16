@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2F2F7E2B7FC64000F62370 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA2F2F7D2B7FC64000F62370 /* KeychainSwift */; };
+		BA2F2F802B7FC66800F62370 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */; };
 		BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */; };
 		BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE912B7F6FE600FED3C3 /* ContentView.swift */; };
 		BABACE942B7F6FE800FED3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABACE932B7F6FE800FED3C3 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		BABACEA22B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEA12B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift */; };
 		BABACEAC2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */; };
 		BABACEAE2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */; };
+		BAD836B12B7F864500F69B10 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD836B02B7F864500F69B10 /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
 		BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi2Garmin Scale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleApp.swift; sourceTree = "<group>"; };
 		BABACE912B7F6FE600FED3C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		BABACEA72B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi2Garmin ScaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITests.swift; sourceTree = "<group>"; };
 		BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAD836B02B7F864500F69B10 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2F2F7E2B7FC64000F62370 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +103,8 @@
 			children = (
 				BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */,
 				BABACE912B7F6FE600FED3C3 /* ContentView.swift */,
+				BAD836B02B7F864500F69B10 /* BluetoothManager.swift */,
+				BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */,
 				BABACE932B7F6FE800FED3C3 /* Assets.xcassets */,
 				BABACE952B7F6FE800FED3C3 /* Mi2Garmin_Scale.entitlements */,
 				BABACE962B7F6FE800FED3C3 /* Preview Content */,
@@ -145,6 +153,9 @@
 			dependencies = (
 			);
 			name = "Mi2Garmin Scale";
+			packageProductDependencies = (
+				BA2F2F7D2B7FC64000F62370 /* KeychainSwift */,
+			);
 			productName = "Mi2Garmin Scale";
 			productReference = BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +228,9 @@
 				Base,
 			);
 			mainGroup = BABACE832B7F6FE500FED3C3;
+			packageReferences = (
+				BA2F2F7C2B7FC64000F62370 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = BABACE8D2B7F6FE600FED3C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */,
+				BAD836B12B7F864500F69B10 /* BluetoothManager.swift in Sources */,
 				BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */,
+				BA2F2F802B7FC66800F62370 /* KeychainSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Это приложение использует Bluetooth для подключения к весам и получения данных о составе тела.";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,6 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Это приложение использует Bluetooth для подключения к весам и получения данных о составе тела.";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -432,8 +450,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -442,10 +460,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-Scale";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,8 +489,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -480,10 +499,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-Scale";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -617,6 +637,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA2F2F7C2B7FC64000F62370 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 21.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA2F2F7D2B7FC64000F62370 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA2F2F7C2B7FC64000F62370 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BABACE842B7F6FE500FED3C3 /* Project object */;
 }
