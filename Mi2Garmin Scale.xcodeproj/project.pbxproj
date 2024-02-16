@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */; };
+		BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE912B7F6FE600FED3C3 /* ContentView.swift */; };
+		BABACE942B7F6FE800FED3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABACE932B7F6FE800FED3C3 /* Assets.xcassets */; };
+		BABACE982B7F6FE800FED3C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABACE972B7F6FE800FED3C3 /* Preview Assets.xcassets */; };
+		BABACEA22B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEA12B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift */; };
+		BABACEAC2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */; };
+		BABACEAE2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BABACE9E2B7F6FE800FED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABACE842B7F6FE500FED3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABACE8B2B7F6FE600FED3C3;
+			remoteInfo = "Mi2Garmin Scale";
+		};
+		BABACEA82B7F6FE800FED3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABACE842B7F6FE500FED3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABACE8B2B7F6FE600FED3C3;
+			remoteInfo = "Mi2Garmin Scale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi2Garmin Scale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleApp.swift; sourceTree = "<group>"; };
+		BABACE912B7F6FE600FED3C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BABACE932B7F6FE800FED3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BABACE952B7F6FE800FED3C3 /* Mi2Garmin_Scale.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mi2Garmin_Scale.entitlements; sourceTree = "<group>"; };
+		BABACE972B7F6FE800FED3C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BABACE9D2B7F6FE800FED3C3 /* Mi2Garmin ScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi2Garmin ScaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABACEA12B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleTests.swift; sourceTree = "<group>"; };
+		BABACEA72B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi2Garmin ScaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITests.swift; sourceTree = "<group>"; };
+		BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABACE892B7F6FE600FED3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACE9A2B7F6FE800FED3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACEA42B7F6FE800FED3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BABACE832B7F6FE500FED3C3 = {
+			isa = PBXGroup;
+			children = (
+				BABACE8E2B7F6FE600FED3C3 /* Mi2Garmin Scale */,
+				BABACEA02B7F6FE800FED3C3 /* Mi2Garmin ScaleTests */,
+				BABACEAA2B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests */,
+				BABACE8D2B7F6FE600FED3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABACE8D2B7F6FE600FED3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */,
+				BABACE9D2B7F6FE800FED3C3 /* Mi2Garmin ScaleTests.xctest */,
+				BABACEA72B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BABACE8E2B7F6FE600FED3C3 /* Mi2Garmin Scale */ = {
+			isa = PBXGroup;
+			children = (
+				BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */,
+				BABACE912B7F6FE600FED3C3 /* ContentView.swift */,
+				BABACE932B7F6FE800FED3C3 /* Assets.xcassets */,
+				BABACE952B7F6FE800FED3C3 /* Mi2Garmin_Scale.entitlements */,
+				BABACE962B7F6FE800FED3C3 /* Preview Content */,
+			);
+			path = "Mi2Garmin Scale";
+			sourceTree = "<group>";
+		};
+		BABACE962B7F6FE800FED3C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BABACE972B7F6FE800FED3C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BABACEA02B7F6FE800FED3C3 /* Mi2Garmin ScaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BABACEA12B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift */,
+			);
+			path = "Mi2Garmin ScaleTests";
+			sourceTree = "<group>";
+		};
+		BABACEAA2B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */,
+				BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */,
+			);
+			path = "Mi2Garmin ScaleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BABACE8B2B7F6FE600FED3C3 /* Mi2Garmin Scale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABACEB12B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin Scale" */;
+			buildPhases = (
+				BABACE882B7F6FE600FED3C3 /* Sources */,
+				BABACE892B7F6FE600FED3C3 /* Frameworks */,
+				BABACE8A2B7F6FE600FED3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mi2Garmin Scale";
+			productName = "Mi2Garmin Scale";
+			productReference = BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BABACE9C2B7F6FE800FED3C3 /* Mi2Garmin ScaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABACEB42B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin ScaleTests" */;
+			buildPhases = (
+				BABACE992B7F6FE800FED3C3 /* Sources */,
+				BABACE9A2B7F6FE800FED3C3 /* Frameworks */,
+				BABACE9B2B7F6FE800FED3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABACE9F2B7F6FE800FED3C3 /* PBXTargetDependency */,
+			);
+			name = "Mi2Garmin ScaleTests";
+			productName = "Mi2Garmin ScaleTests";
+			productReference = BABACE9D2B7F6FE800FED3C3 /* Mi2Garmin ScaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BABACEA62B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABACEB72B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin ScaleUITests" */;
+			buildPhases = (
+				BABACEA32B7F6FE800FED3C3 /* Sources */,
+				BABACEA42B7F6FE800FED3C3 /* Frameworks */,
+				BABACEA52B7F6FE800FED3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABACEA92B7F6FE800FED3C3 /* PBXTargetDependency */,
+			);
+			name = "Mi2Garmin ScaleUITests";
+			productName = "Mi2Garmin ScaleUITests";
+			productReference = BABACEA72B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BABACE842B7F6FE500FED3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BABACE8B2B7F6FE600FED3C3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BABACE9C2B7F6FE800FED3C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BABACE8B2B7F6FE600FED3C3;
+					};
+					BABACEA62B7F6FE800FED3C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BABACE8B2B7F6FE600FED3C3;
+					};
+				};
+			};
+			buildConfigurationList = BABACE872B7F6FE500FED3C3 /* Build configuration list for PBXProject "Mi2Garmin Scale" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BABACE832B7F6FE500FED3C3;
+			productRefGroup = BABACE8D2B7F6FE600FED3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABACE8B2B7F6FE600FED3C3 /* Mi2Garmin Scale */,
+				BABACE9C2B7F6FE800FED3C3 /* Mi2Garmin ScaleTests */,
+				BABACEA62B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BABACE8A2B7F6FE600FED3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABACE982B7F6FE800FED3C3 /* Preview Assets.xcassets in Resources */,
+				BABACE942B7F6FE800FED3C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACE9B2B7F6FE800FED3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACEA52B7F6FE800FED3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BABACE882B7F6FE600FED3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */,
+				BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACE992B7F6FE800FED3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABACEA22B7F6FE800FED3C3 /* Mi2Garmin_ScaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABACEA32B7F6FE800FED3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABACEAE2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift in Sources */,
+				BABACEAC2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BABACE9F2B7F6FE800FED3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABACE8B2B7F6FE600FED3C3 /* Mi2Garmin Scale */;
+			targetProxy = BABACE9E2B7F6FE800FED3C3 /* PBXContainerItemProxy */;
+		};
+		BABACEA92B7F6FE800FED3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABACE8B2B7F6FE600FED3C3 /* Mi2Garmin Scale */;
+			targetProxy = BABACEA82B7F6FE800FED3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BABACEAF2B7F6FE800FED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BABACEB02B7F6FE800FED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BABACEB22B7F6FE800FED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mi2Garmin Scale/Mi2Garmin_Scale.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mi2Garmin Scale/Preview Content\"";
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-Scale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BABACEB32B7F6FE800FED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mi2Garmin Scale/Mi2Garmin_Scale.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mi2Garmin Scale/Preview Content\"";
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-Scale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BABACEB52B7F6FE800FED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-ScaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi2Garmin Scale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mi2Garmin Scale";
+			};
+			name = Debug;
+		};
+		BABACEB62B7F6FE800FED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-ScaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi2Garmin Scale.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mi2Garmin Scale";
+			};
+			name = Release;
+		};
+		BABACEB82B7F6FE800FED3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-ScaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mi2Garmin Scale";
+			};
+			name = Debug;
+		};
+		BABACEB92B7F6FE800FED3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EMVJLWPLVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dzarlax.Mi2Garmin-ScaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mi2Garmin Scale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BABACE872B7F6FE500FED3C3 /* Build configuration list for PBXProject "Mi2Garmin Scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABACEAF2B7F6FE800FED3C3 /* Debug */,
+				BABACEB02B7F6FE800FED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABACEB12B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin Scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABACEB22B7F6FE800FED3C3 /* Debug */,
+				BABACEB32B7F6FE800FED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABACEB42B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin ScaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABACEB52B7F6FE800FED3C3 /* Debug */,
+				BABACEB62B7F6FE800FED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABACEB72B7F6FE800FED3C3 /* Build configuration list for PBXNativeTarget "Mi2Garmin ScaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABACEB82B7F6FE800FED3C3 /* Debug */,
+				BABACEB92B7F6FE800FED3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BABACE842B7F6FE500FED3C3 /* Project object */;
+}
