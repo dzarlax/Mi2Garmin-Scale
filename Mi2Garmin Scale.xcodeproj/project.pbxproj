@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA2F2F7E2B7FC64000F62370 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA2F2F7D2B7FC64000F62370 /* KeychainSwift */; };
 		BA2F2F802B7FC66800F62370 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */; };
+		BA8A5AE32B8394DC00CD9005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8A5AE22B8394DC00CD9005 /* AppDelegate.swift */; };
 		BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */; };
 		BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACE912B7F6FE600FED3C3 /* ContentView.swift */; };
 		BABACE942B7F6FE800FED3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABACE932B7F6FE800FED3C3 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
+		BA8A5AE22B8394DC00CD9005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BABACE8C2B7F6FE600FED3C3 /* Mi2Garmin Scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi2Garmin Scale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleApp.swift; sourceTree = "<group>"; };
 		BABACE912B7F6FE600FED3C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BABACE8F2B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift */,
+				BA8A5AE22B8394DC00CD9005 /* AppDelegate.swift */,
 				BABACE912B7F6FE600FED3C3 /* ContentView.swift */,
 				BAD836B02B7F864500F69B10 /* BluetoothManager.swift */,
 				BA2F2F7F2B7FC66800F62370 /* KeychainSwift.swift */,
@@ -276,6 +279,7 @@
 				BABACE922B7F6FE600FED3C3 /* ContentView.swift in Sources */,
 				BAD836B12B7F864500F69B10 /* BluetoothManager.swift in Sources */,
 				BABACE902B7F6FE600FED3C3 /* Mi2Garmin_ScaleApp.swift in Sources */,
+				BA8A5AE32B8394DC00CD9005 /* AppDelegate.swift in Sources */,
 				BA2F2F802B7FC66800F62370 /* KeychainSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Mi2Garmin Scale/Mi2Garmin_Scale.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -473,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Mi2Garmin Scale/Mi2Garmin_Scale.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -79,7 +79,6 @@ class BluetoothManager: NSObject, ObservableObject, CBCentralManagerDelegate, CB
         let multiplierValue = Int(multiplierByte)
         
         let weight = ((Double(weightValue) * 256) + Double(multiplierValue)) * 0.005
-        let weightInGrams = weight * 1000
         DispatchQueue.main.async {
             // Отображение веса с точностью до двух знаков после запятой
             self.receivedData = weight

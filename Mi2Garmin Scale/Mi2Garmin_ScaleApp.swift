@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct Mi2Garmin_ScaleApp: App {
+    // Подключение AppDelegate
+     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()
