@@ -52,6 +52,8 @@
 		BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITests.swift; sourceTree = "<group>"; };
 		BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BAD5DB2A2B83B46C00F809EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BAD5DB2B2B84A76F00F809EF /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		BAD5DB2C2B84A76F00F809EF /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 		BAD836B02B7F864500F69B10 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,8 @@
 		BABACE832B7F6FE500FED3C3 = {
 			isa = PBXGroup;
 			children = (
+				BAD5DB2B2B84A76F00F809EF /* Screenshot.png */,
+				BAD5DB2C2B84A76F00F809EF /* Screenshot2.png */,
 				BAD5DB2A2B83B46C00F809EF /* README.md */,
 				BABACE8E2B7F6FE600FED3C3 /* Mi2Garmin Scale */,
 				BABACEA02B7F6FE800FED3C3 /* Mi2Garmin ScaleTests */,

@@ -38,3 +38,5 @@ open Mi2Garmin.xcodeproj
 ## Контакты
 Если у вас есть вопросы или предложения, пожалуйста, свяжитесь со мной по адресу me@dzarlax.dev
 
+![Main screen](Screenshot.png)
+![Main screen with notification](Screenshot2.png)
