@@ -51,7 +51,7 @@
 		BABACEA72B7F6FE800FED3C3 /* Mi2Garmin ScaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi2Garmin ScaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABACEAB2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITests.swift; sourceTree = "<group>"; };
 		BABACEAD2B7F6FE800FED3C3 /* Mi2Garmin_ScaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi2Garmin_ScaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BAD5DB2A2B83B46C00F809EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BAD5DB2A2B83B46C00F809EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		BAD5DB2B2B84A76F00F809EF /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		BAD5DB2C2B84A76F00F809EF /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 		BAD836B02B7F864500F69B10 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
